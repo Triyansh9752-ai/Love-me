@@ -1,0 +1,47 @@
+body {
+  background-color: #ffd6e0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff0f5;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h1 {
+  color: #d6336c;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.yes-button {
+  background-color: #51cf66;
+  color: white;
+}
+
+.no-button {
+  background-color: #ff6b6b;
+  color: white;
+}
